@@ -25,12 +25,12 @@ public class GunInventory : MonoBehaviour {
 	 * Also will spawn a weapon upon start.
 	 */
 	void Awake(){
-		StartCoroutine("UpdateIconsFromResources");
+		//StartCoroutine("UpdateIconsFromResources");
 
-		StartCoroutine ("SpawnWeaponUponStart");//to start with a gun
+		//StartCoroutine ("SpawnWeaponUponStart");//to start with a gun
 
-		if (gunsIHave.Count == 0)
-			print ("No guns in the inventory");
+		//if (gunsIHave.Count == 0)
+		//	print ("No guns in the inventory");
 	}
 
 	/*
